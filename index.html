@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eylül Alptekin | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Eylül Alptekin</h1>
+    <p>Étudiante MIAGE — Java / Spring Boot — QA / Automation</p>
+    <div class="links">
+      <a href="https://github.com/eylul-alptekin" target="_blank">GitHub</a>
+      <a href="eylul.alptekin@toulouse.miage.fr">Email</a>
+      <a href="CV_StageDevLogicielsEylul_Alptekin.pdf" target="_blank" class="btn">Télécharger mon CV</a>
+
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Projets</h2>
+
+      <article class="card">
+        <h3>Projet Spring Boot — API REST</h3>
+        <p>CRUD, JPA/Hibernate, tests, etc.</p>
+        <div class="links">
+          <a href="https://github.com/TON_GITHUB/ton-projet" target="_blank">Code</a>
+          <a href="#" target="_blank">Démo</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Projet QA Automation — Selenium</h3>
+        <p>Tests E2E, Page Object, reporting.</p>
+        <div class="links">
+          <a href="https://github.com/TON_GITHUB/qa-project" target="_blank">Code</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© <span id="year"></span> Eylül Alptekin</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
